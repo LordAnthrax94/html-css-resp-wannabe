@@ -129,31 +129,22 @@ img {
  ************************************************/
 
  @media screen and (max-width:780px){
-    .container{
-        width: 100%;
-    }
-
-     .container h2{
-        display: flex;
-        justify-content: center;
-     }   
-    
-    .row{
-        display: flex;                                                      
-    }
-
-    .col{
-        flex-wrap: wrap;
-        width: 33%;
-    }
-
-    
-
-    .why-us{
-        display: flex;
-        display: wrap;        
+    .container {
+        width: 100%;        
     }
     
  } 
 
- @media screen and (max)
+ @media screen and (max-width:480px){
+    .row{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .row .col{
+        width: 100%;
+    }
+
+    
+
+ }
